@@ -410,3 +410,31 @@ nov. 30, 2025 11:46:25 PM MainServer handleClient
 INFO: Client déconnecté : /[0:0:0:0:0:0:0:1]:57767
 nov. 30, 2025 11:46:25 PM MainServer handleClient
 INFO: Connexion fermée : /[0:0:0:0:0:0:0:1]:57767
+mars 13, 2026 4:31:36 PM MainServer main
+INFOS: ===== Serveur démarré =====
+mars 13, 2026 4:32:57 PM MainServer main
+INFOS: Connexion d'un client : /127.0.0.1:55134
+mars 13, 2026 4:32:57 PM MainServer handleClient
+INFOS: Client READY : /127.0.0.1:55134
+mars 13, 2026 4:33:06 PM MainServer handleClient
+INFOS: Commande reçue : HELLO
+mars 13, 2026 4:33:06 PM MainServer handleClient
+INFOS: Réponse envoyée → HELLO_ACK
+mars 13, 2026 4:33:11 PM MainServer handleClient
+INFOS: Commande reçue : STATUS
+mars 13, 2026 4:33:11 PM MainServer handleClient
+INFOS: Réponse envoyée → FREE 5
+mars 13, 2026 4:33:13 PM MainServer handleClient
+INFOS: Commande reçue : ENTER
+mars 13, 2026 4:33:13 PM MainServer handleClient
+INFOS: Réponse envoyée → PLATE?
+mars 13, 2026 4:33:39 PM MainServer handleClient
+INFOS: Commande reçue : AB-123-CD
+mars 13, 2026 4:33:39 PM MainServer handleClient
+INFOS: Réponse envoyée → DENIED NO_SUBSCRIPTION
+mars 13, 2026 4:33:56 PM MainServer handleClient
+INFOS: Commande reçue : BYE
+mars 13, 2026 4:33:56 PM MainServer handleClient
+INFOS: Client déconnecté : /127.0.0.1:55134
+mars 13, 2026 4:33:56 PM MainServer handleClient
+INFOS: Connexion fermée : /127.0.0.1:55134
