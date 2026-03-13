@@ -75,10 +75,10 @@ projet_parking/
 ##  Architecture technique
 
 ```
-┌─────────────────┐     TCP :8009      ┌──────────────────────┐
-│   client.py     │ ────────────────▶  │    MainServer.java   │
-│ (Python terminal)│ ◀──────────────── │  (Serveur TCP Java)  │
-└─────────────────┘   Protocole texte  └──────────┬───────────┘
+┌──────────────────┐     TCP :8009      ┌───────────────────────┐
+│   client.py      │ ────────────────▶  │    MainServer.java    │
+│ (Python terminal)│ ◀──────────────── │  (Serveur TCP Java)   │
+└──────────────────┘   Protocole texte  └───────────┬───────────┘
                                                    │
                                           ┌────────▼────────┐
                                           │ ParkingService  │
@@ -90,10 +90,10 @@ projet_parking/
                                           │  (Accès BDD)    │
                                           └────────┬────────┘
                                                    │
-┌─────────────────┐       PDO          ┌──────────▼───────────┐
-│  siteWeb (PHP)  │ ────────────────▶  │    PostgreSQL BDD    │
-│dashboard/abonnmt│ ◀────────────────  │     parking_bd       │
-└─────────────────┘                    └──────────────────────┘
+┌─────────────────┐       PDO          ┌───────────▼───────────┐
+│  siteWeb (PHP)  │ ────────────────▶  │    PostgreSQL BDD     │
+│dashboard/abonnmt│ ◀────────────────  │     parking_bd        │
+└─────────────────┘                    └───────────────────────┘
 ```
 
 Le serveur Java et le site PHP accèdent **indépendamment** à la même base PostgreSQL.
