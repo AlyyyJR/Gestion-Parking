@@ -1,0 +1,412 @@
+nov. 30, 2025 9:05:29 PM MainServer main
+INFO: ===== Serveur demarre =====
+nov. 30, 2025 9:09:38 PM MainServer main
+INFO: Connexion d'un client : /127.0.0.1:10652
+nov. 30, 2025 9:14:50 PM MainServer main
+INFO: ===== Serveur demarre =====
+nov. 30, 2025 9:14:54 PM MainServer main
+INFO: Connexion d'un client : /127.0.0.1:13381
+nov. 30, 2025 9:46:38 PM MainServer main
+INFO: Serveur demarre sur le port 8009
+nov. 30, 2025 9:47:00 PM MainServer main
+INFO: Serveur demarre sur le port 8009
+nov. 30, 2025 9:51:59 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 9:52:12 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:52286
+nov. 30, 2025 9:52:12 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:52286
+nov. 30, 2025 9:52:17 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 9:52:17 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 9:52:23 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 9:52:23 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 9:52:23 PM MainServer handleClient
+INFO: Commande reçue : 
+nov. 30, 2025 9:52:23 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED INVALID_FORMAT
+nov. 30, 2025 9:52:31 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 9:52:31 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 9:52:39 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 9:52:40 PM MainServer handleClient
+INFO: Réponse envoyée → OK_ENTER place=9
+nov. 30, 2025 9:52:50 PM MainServer handleClient
+INFO: Commande reçue : STATUS
+nov. 30, 2025 9:52:50 PM MainServer handleClient
+INFO: Réponse envoyée → FREE 2
+nov. 30, 2025 9:53:00 PM MainServer handleClient
+INFO: Commande reçue : BYE
+nov. 30, 2025 9:53:00 PM MainServer handleClient
+INFO: Client déconnecté : /127.0.0.1:52286
+nov. 30, 2025 9:53:00 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:52286
+nov. 30, 2025 10:15:17 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 10:15:21 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:15886
+nov. 30, 2025 10:15:21 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:15886
+nov. 30, 2025 10:15:24 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:15:24 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:15:32 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 10:15:32 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 10:16:02 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:15886
+nov. 30, 2025 10:16:02 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:15886
+nov. 30, 2025 10:16:50 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:45333
+nov. 30, 2025 10:16:50 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:45333
+nov. 30, 2025 10:16:54 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:16:54 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:17:08 PM MainServer handleClient
+INFO: Commande reçue : EF-456-GH
+nov. 30, 2025 10:17:08 PM MainServer handleClient
+INFO: Réponse envoyée → OK_ENTER place=3
+nov. 30, 2025 10:17:17 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:17:17 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:17:31 PM MainServer handleClient
+INFO: Commande reçue : U-789-KL
+nov. 30, 2025 10:17:31 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED INVALID_FORMAT
+nov. 30, 2025 10:18:01 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:45333
+nov. 30, 2025 10:18:01 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:45333
+nov. 30, 2025 10:18:27 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:45373
+nov. 30, 2025 10:18:27 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:45373
+nov. 30, 2025 10:18:29 PM MainServer handleClient
+INFO: Commande reçue : STATUS
+nov. 30, 2025 10:18:29 PM MainServer handleClient
+INFO: Réponse envoyée → FREE 1
+nov. 30, 2025 10:18:59 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:45373
+nov. 30, 2025 10:18:59 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:45373
+nov. 30, 2025 10:20:13 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 10:20:13 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:58667
+nov. 30, 2025 10:20:13 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:58667
+nov. 30, 2025 10:20:17 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:20:17 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:20:19 PM MainServer handleClient
+INFO: Commande reçue : EF-456-GH
+nov. 30, 2025 10:20:19 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 10:20:49 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:58667
+nov. 30, 2025 10:20:49 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:58667
+nov. 30, 2025 10:24:16 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:29409
+nov. 30, 2025 10:24:16 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:29409
+nov. 30, 2025 10:24:18 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:24:18 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:24:38 PM MainServer handleClient
+INFO: Commande reçue : UV-987-WX
+nov. 30, 2025 10:24:38 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 10:24:59 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:24:59 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:25:01 PM MainServer handleClient
+INFO: Commande reçue : IJ-789-KL
+nov. 30, 2025 10:25:01 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED NO_SUBSCRIPTION
+nov. 30, 2025 10:25:31 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:29409
+nov. 30, 2025 10:25:31 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:29409
+nov. 30, 2025 10:25:52 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:25446
+nov. 30, 2025 10:25:52 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:25446
+nov. 30, 2025 10:25:57 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:25:58 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:25:59 PM MainServer handleClient
+INFO: Commande reçue : QR-654-ST
+nov. 30, 2025 10:25:59 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED NO_SUBSCRIPTION
+nov. 30, 2025 10:26:17 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 10:26:17 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 10:26:18 PM MainServer handleClient
+INFO: Commande reçue : UV-987-WX
+nov. 30, 2025 10:26:18 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 10:26:48 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:25446
+nov. 30, 2025 10:26:48 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:25446
+nov. 30, 2025 11:08:51 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 11:08:53 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:30295
+nov. 30, 2025 11:08:53 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:30295
+nov. 30, 2025 11:08:56 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:09:06 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:09:23 PM MainServer handleClient
+INFO: Commande reçue : XY-987-ZT
+nov. 30, 2025 11:09:26 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED UNKNOWN_PLATE
+nov. 30, 2025 11:10:48 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 11:10:57 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:50809
+nov. 30, 2025 11:10:57 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:50809
+nov. 30, 2025 11:11:00 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:11:00 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:11:05 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:11:06 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:11:20 PM MainServer handleClient
+INFO: Commande reçue : XY-987-ZT
+nov. 30, 2025 11:11:33 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED UNKNOWN_PLATE
+nov. 30, 2025 11:12:03 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:50809
+nov. 30, 2025 11:12:03 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:50809
+nov. 30, 2025 11:24:37 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 11:24:39 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:33359
+nov. 30, 2025 11:24:39 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:33359
+nov. 30, 2025 11:24:46 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:24:46 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:25:15 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:25:16 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:25:22 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 11:25:32 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 11:25:40 PM MainServer handleClient
+INFO: Commande reçue : EXIT
+nov. 30, 2025 11:25:40 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:25:46 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 11:25:47 PM MainServer handleClient
+INFO: Réponse envoyée → OK_EXIT freed=9
+nov. 30, 2025 11:25:50 PM MainServer handleClient
+INFO: Commande reçue : EXIT
+nov. 30, 2025 11:25:50 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:26:07 PM MainServer handleClient
+INFO: Commande reçue : EF-456-GH
+nov. 30, 2025 11:26:07 PM MainServer handleClient
+INFO: Réponse envoyée → OK_EXIT freed=3
+nov. 30, 2025 11:26:09 PM MainServer handleClient
+INFO: Commande reçue : EXIT
+nov. 30, 2025 11:26:09 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:26:17 PM MainServer handleClient
+INFO: Commande reçue : MN-321-OP
+nov. 30, 2025 11:26:18 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED NOT_INSIDE
+nov. 30, 2025 11:26:48 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:33359
+nov. 30, 2025 11:26:48 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:33359
+nov. 30, 2025 11:27:31 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:21234
+nov. 30, 2025 11:27:31 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:21234
+nov. 30, 2025 11:27:37 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:27:37 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:27:40 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:27:44 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:28:14 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:21234
+nov. 30, 2025 11:28:14 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:21234
+nov. 30, 2025 11:28:18 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:21252
+nov. 30, 2025 11:28:18 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:21252
+nov. 30, 2025 11:28:24 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:28:24 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:28:26 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:28:27 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:28:32 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 11:28:51 PM MainServer handleClient
+INFO: Réponse envoyée → OK_ENTER place=5
+nov. 30, 2025 11:29:12 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:29:14 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:29:19 PM MainServer handleClient
+INFO: Commande reçue : INVALIDE
+nov. 30, 2025 11:29:19 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED INVALID_FORMAT
+nov. 30, 2025 11:29:49 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:21252
+nov. 30, 2025 11:29:49 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:21252
+nov. 30, 2025 11:30:03 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:21297
+nov. 30, 2025 11:30:03 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:21297
+nov. 30, 2025 11:30:06 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:30:06 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:30:07 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:30:13 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:30:15 PM MainServer handleClient
+INFO: Commande reçue : UV-987-WX
+nov. 30, 2025 11:30:15 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 11:30:20 PM MainServer handleClient
+INFO: Commande reçue : EXIT
+nov. 30, 2025 11:30:20 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:30:22 PM MainServer handleClient
+INFO: Commande reçue : UV-987-WX
+nov. 30, 2025 11:30:24 PM MainServer handleClient
+INFO: Réponse envoyée → OK_EXIT freed=5
+nov. 30, 2025 11:30:26 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:30:26 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:30:28 PM MainServer handleClient
+INFO: Commande reçue : UV-987-WX
+nov. 30, 2025 11:30:39 PM MainServer handleClient
+INFO: Réponse envoyée → OK_ENTER place=9
+nov. 30, 2025 11:31:09 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:21297
+nov. 30, 2025 11:31:09 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:21297
+nov. 30, 2025 11:32:19 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 11:32:19 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:21369
+nov. 30, 2025 11:32:19 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:21369
+nov. 30, 2025 11:32:46 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:32:46 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:32:54 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:32:59 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:33:02 PM MainServer handleClient
+INFO: Commande reçue : QR-654-ST
+nov. 30, 2025 11:33:20 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED NO_SUBSCRIPTION
+nov. 30, 2025 11:33:50 PM MainServer handleClient
+WARNING: Client inactif -> fermeture : /127.0.0.1:21369
+nov. 30, 2025 11:33:50 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:21369
+nov. 30, 2025 11:34:19 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:21429
+nov. 30, 2025 11:34:19 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:21429
+nov. 30, 2025 11:34:20 PM MainServer handleClient
+INFO: Commande reçue : BYE
+nov. 30, 2025 11:34:20 PM MainServer handleClient
+INFO: Client déconnecté : /127.0.0.1:21429
+nov. 30, 2025 11:34:20 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:21429
+nov. 30, 2025 11:45:26 PM MainServer main
+INFO: ===== Serveur démarré =====
+nov. 30, 2025 11:45:26 PM MainServer main
+INFO: Connexion d’un client : /127.0.0.1:57751
+nov. 30, 2025 11:45:26 PM MainServer handleClient
+INFO: Client READY : /127.0.0.1:57751
+nov. 30, 2025 11:45:34 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:45:34 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:45:37 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:45:37 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:45:43 PM MainServer handleClient
+INFO: Commande reçue : AB_123_CD
+nov. 30, 2025 11:45:43 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED INVALID_FORMAT
+nov. 30, 2025 11:45:52 PM MainServer handleClient
+INFO: Connexion fermée : /127.0.0.1:57751
+nov. 30, 2025 11:45:53 PM MainServer main
+INFO: Connexion d’un client : /[0:0:0:0:0:0:0:1]:57767
+nov. 30, 2025 11:45:53 PM MainServer handleClient
+INFO: Client READY : /[0:0:0:0:0:0:0:1]:57767
+nov. 30, 2025 11:45:57 PM MainServer handleClient
+INFO: Commande reçue : HELLO
+nov. 30, 2025 11:45:57 PM MainServer handleClient
+INFO: Réponse envoyée → HELLO_ACK
+nov. 30, 2025 11:46:02 PM MainServer handleClient
+INFO: Commande reçue : ENTER
+nov. 30, 2025 11:46:02 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:46:06 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 11:46:06 PM MainServer handleClient
+INFO: Réponse envoyée → DENIED ALREADY_INSIDE
+nov. 30, 2025 11:46:10 PM MainServer handleClient
+INFO: Commande reçue : EXIT
+nov. 30, 2025 11:46:10 PM MainServer handleClient
+INFO: Réponse envoyée → PLATE?
+nov. 30, 2025 11:46:18 PM MainServer handleClient
+INFO: Commande reçue : AB-123-CD
+nov. 30, 2025 11:46:19 PM MainServer handleClient
+INFO: Réponse envoyée → OK_EXIT freed=9
+nov. 30, 2025 11:46:25 PM MainServer handleClient
+INFO: Commande reçue : BYE
+nov. 30, 2025 11:46:25 PM MainServer handleClient
+INFO: Client déconnecté : /[0:0:0:0:0:0:0:1]:57767
+nov. 30, 2025 11:46:25 PM MainServer handleClient
+INFO: Connexion fermée : /[0:0:0:0:0:0:0:1]:57767
