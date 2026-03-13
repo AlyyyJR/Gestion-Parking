@@ -77,7 +77,7 @@ projet_parking/
 ```
 ┌──────────────────┐     TCP :8009      ┌───────────────────────┐
 │   client.py      │ ────────────────▶  │    MainServer.java    │
-│ (Python terminal)│ ◀──────────────── │  (Serveur TCP Java)   │
+│ (Python terminal)│ ◀──────────────── │  (Serveur TCP Java)    │
 └──────────────────┘   Protocole texte  └───────────┬───────────┘
                                                    │
                                           ┌────────▼────────┐
