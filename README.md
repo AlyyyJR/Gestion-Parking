@@ -334,5 +334,4 @@ WARNING: Client inactif -> fermeture : /127.0.0.1:52286
 
 ## Auteur
 
-**Aly KONATE** — L2 Informatique  
-GitHub : [@AlyyyJR](https://github.com/AlyyyJR)
+**Aly KONATE** — Projet personnel
